@@ -1,22 +1,22 @@
-body{
-    background-color: #04293A;
+body {
+    background-color: #242424;
 }
 
 header {
     width: 100%;
     height: 120px;
-    background-color: #064663;
+    background-color: wheat;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #064663;
+    background-color: grey;
 }
 
-.card-text{
+.card-text {
     color: white;
 }
 
-.card-title{
+.card-title {
     color: white;
 }
