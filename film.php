@@ -7,7 +7,7 @@ $query = "SELECT * FROM film LIMIT 0,10";
 $sql = $conn->query($query);
 $data = [];
 
-while ($row = $sql->fetch_assoc()) {
+while ($row = $sql->fetch_object()) {
     array_push($data, $row);
 }
 
