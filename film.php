@@ -3,7 +3,7 @@
 require './connect.php';
 $page = isset($_GET['page']) ? $_GET['page'] : 0;
 
-$query = "SELECT * FROM film LIMIT 0,10";
+$query = "SELECT * FROM film LIMIT 0,12";
 $sql = $conn->query($query);
 $data = [];
 
